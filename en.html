@@ -31,14 +31,14 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="meta">むかしあそび / Mukashi Asobi (formerly Ball In A Maze) / Last updated: 10 November 2026</p>
+<p class="meta">むかしあそび / Mukashi Asobi (formerly Ball In A Maze) / Last updated: 16 November 2026</p>
 <p class="lang"><a href="./">日本語版</a></p>
 
 <p>
 Katsumi Sakurai ("we") sets out below how information is handled in the iOS app
-"むかしあそび" / Mukashi Asobi, formerly "Ball In A Maze" ("the app"). The app contains two
-games - goldfish scooping (きんぎょすくい) and the tilt maze (玉ころがし) - and this policy
-applies to both.
+"むかしあそび" / Mukashi Asobi, formerly "Ball In A Maze" ("the app"). The app contains three
+games - goldfish scooping (きんぎょすくい), the tilt maze (玉ころがし) and picture matching
+(えあわせ) - and this policy applies to all of them.
 </p>
 
 <h2>1. Information we do not collect</h2>
@@ -47,8 +47,9 @@ The app has no account or sign-in, and we operate no server. <strong>We never re
 information about you.</strong>
 </p>
 <p>
-The app does not use or collect your name, email address, phone number, contacts, location,
-photo library or microphone. Camera use is described in section 2.
+The app does not use or collect your name, email address, phone number, contacts, location
+or microphone. Photos you choose for えあわせ stay on your device and <strong>never reach
+us</strong>. Camera use is described in section 2, photos in section 3.
 </p>
 
 <h2>2. Camera</h2>
@@ -60,7 +61,7 @@ whatever is behind the device appears to show through it.
 <table>
   <tr><th></th><th>What the app does</th></tr>
   <tr><td>Display</td><td>Frames are rendered on screen, and nothing else</td></tr>
-  <tr><td>Recording / saving</td><td>Never. The app does not access the photo library at all</td></tr>
+  <tr><td>Recording / saving</td><td>Never. Camera frames are not written to the photo library</td></tr>
   <tr><td>Analysis</td><td>Never. There is no face or object recognition of any kind</td></tr>
   <tr><td>Transmission</td><td>Never. No frame leaves the device. Nothing is passed to advertising</td></tr>
   <tr><td>When it runs</td><td>Only while you are on a glass-floor stage with the "see-through" look selected. It stops as soon as you change the look or leave the stage</td></tr>
@@ -75,7 +76,35 @@ If you decline camera permission, <strong>every stage remains fully playable</st
 change the permission at any time in iOS Settings &rarr; Privacy &amp; Security &rarr; Camera.
 </p>
 
-<h2>3. What is stored on your device</h2>
+<h2>3. Photos</h2>
+<p>
+えあわせ (picture matching) is played with photographs, which are cut into four pieces and
+put back together. You choose where the photos come from:
+</p>
+<table>
+  <tr><th>Source</th><th>Permission</th><th>What happens</th></tr>
+  <tr><td>Photos bundled with the app</td><td>None</td><td>144 photos ship with the app. This is the default</td></tr>
+  <tr><td>Pick your own photos</td><td>None</td><td>The iOS photo picker (PhotosPicker). The app does not read your library; it receives only the photos you picked (up to 100)</td></tr>
+  <tr><td>Use a whole album</td><td>Required</td><td>Listing albums needs access to the photo library. Up to 100 photos are then imported from the album you choose</td></tr>
+</table>
+<p>
+Photos you choose are cropped to a square and stored inside the app's own folder on your
+device so that the board can draw them.
+</p>
+<table>
+  <tr><th></th><th>What the app does</th></tr>
+  <tr><td>Transmission</td><td>None. <strong>Photos never leave your device</strong>, and they are never passed to advertising</td></tr>
+  <tr><td>Access by us</td><td>Impossible. We operate no server and never receive your photos</td></tr>
+  <tr><td>Analysis</td><td>Face positions are detected on the device (iOS Vision) only to choose where to crop, so that faces are not cut in half. The result is used for the crop and is neither stored nor sent</td></tr>
+  <tr><td>Deletion</td><td>Imported photos are removed when you choose another source, or when you delete the app</td></tr>
+</table>
+<p>
+You can play えあわせ <strong>without granting photo library access</strong>: the bundled
+photos and the picker (which needs no permission) both remain available. You can change the
+permission at any time in iOS Settings - Privacy &amp; Security - Photos - むかしあそび.
+</p>
+
+<h2>4. What is stored on your device</h2>
 <p>
 Only the following is stored on the device itself (iOS UserDefaults). None of it is transmitted.
 </p>
@@ -84,13 +113,14 @@ Only the following is stored on the device itself (iOS UserDefaults). None of it
   <tr><td>Progress</td><td>How far you have cleared</td></tr>
   <tr><td>Best times</td><td>Your fastest time for each stage</td></tr>
   <tr><td>Stars</td><td>Stars collected per stage (up to three)</td></tr>
-  <tr><td>Settings</td><td>Control style, sound, haptics, glass floor look</td></tr>
+  <tr><td>Best scores</td><td>Your best score in goldfish scooping and the number of photos completed in picture matching</td></tr>
+  <tr><td>Settings</td><td>Control style, sound, haptics, glass floor look, photo source</td></tr>
 </table>
 <p>
 This data is removed from the device when the app is deleted. We cannot view or obtain it.
 </p>
 
-<h2>4. Advertising</h2>
+<h2>5. Advertising</h2>
 <p>
 The app uses Google AdMob. Three ad formats are shown.
 </p>
@@ -118,7 +148,7 @@ This information is collected and used by Google; we do not receive its contents
 Camera frames are never used for advertising. No frame is included in anything sent to AdMob.
 </p>
 
-<h2>5. App Tracking Transparency (ATT)</h2>
+<h2>6. App Tracking Transparency (ATT)</h2>
 <p>
 On first launch iOS asks whether the app may track you.
 </p>
@@ -132,31 +162,31 @@ Either way, every stage remains fully playable. You can change this at any time 
 iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking.
 </p>
 
-<h2>6. For users in the EU and UK (consent)</h2>
+<h2>7. For users in the EU and UK (consent)</h2>
 <p>
 Depending on your region, a consent form (Google User Messaging Platform) is presented before
 ads are shown. Your choices can be changed at any time from "広告のプライバシー設定"
 (Ad privacy settings) on the app's Settings screen.
 </p>
 
-<h2>7. In-app purchases</h2>
+<h2>8. In-app purchases</h2>
 <p>
 The app has no in-app purchases. The coins in goldfish scooping exist only inside the game;
 they cannot be bought with money or exchanged for anything.
 </p>
 
-<h2>8. Children</h2>
+<h2>9. Children</h2>
 <p>
 The app is not directed to children under 13.
 </p>
 
-<h2>9. Changes to this policy</h2>
+<h2>10. Changes to this policy</h2>
 <p>
 This policy may change as the law or the app changes. Significant changes will be announced
 on this page.
 </p>
 
-<h2>10. Contact</h2>
+<h2>11. Contact</h2>
 <p>
 Questions about this policy or the app: <a href="mailto:sakurai.katsumi.1219@gmail.com">sakurai.katsumi.1219@gmail.com</a>
 </p>
